@@ -23,6 +23,7 @@ The plugin accesses OpenAI's API. Note that this is different than ChatGPT. Goto
 ![image](https://github.com/zetierminat0r/ViChat/assets/157128602/447686b9-3e32-494b-9a40-765c202a1181)
 
 Click on the logo and you can find the API keys there:
+
 ![image](https://github.com/zetierminat0r/ViChat/assets/157128602/dce4e242-2d37-4ae7-bed8-463ca2301508)
 
 Setup billing. With each access to the API, they will charge your account depending on which model you select. As of this writing it is aroun 10 cents per request. YMMV. 
