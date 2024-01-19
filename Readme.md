@@ -1,4 +1,4 @@
-# Vichat
+# ViChat
 
 Vichat is a Vim plugin for predicting text with OpenAI's GPT-4 model.
 
