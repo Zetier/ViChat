@@ -104,14 +104,14 @@ function! VichatPrompt_curl()
     let selected_text = getline("'<", "'>")
 
     " Get additional input from the user
-    let user_input = input("Enter additional optional text for GPT: ")
+    let user_input = input("Enter additional optional text for davinci-002: ")
 
     " Combine the selected text and user input
     let full_prompt = join(selected_text, "\n") . "\n" . user_input
 
     " Construct the data dictionary with the sanitized prompt
     let data_dict = {
-    \ 'model': 'text-davinci-003',
+    \ 'model': 'davinci-002',
     \ 'prompt': full_prompt,
     \ 'max_tokens': 2000,
     \ 'temperature': 0.7
